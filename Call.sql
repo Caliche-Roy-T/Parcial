@@ -17,5 +17,5 @@ call insert_producto ("Monitor 24 LED Full HD" ,202 ,1);
 call insert_producto ("Monitor 27 LED Full HD" ,245.99 ,1);
 call insert_producto ("Portátil Yoga 520" ,559,2);
 call insert_producto ("Portátil Ideapd 320",444 ,2);
-call insert_producto ("Impresora HP Deskjet 3720",59.99 ,3);
+call insert_producto ("Impresora HP Deskjet 3720",59.99,3);
 call insert_producto ("Impresora HP Laserjet Pro M26nw",180,3);

@@ -1,4 +1,4 @@
-drop database parcial;
+drop database if exists parcial;
 create database parcial;
 use parcial;
 
@@ -13,6 +13,5 @@ codigo_fabricante int,
 Precio double
 );
 
-ALTER TABLE fabricante
-ADD constraint fkcodigo_fabricante
-FOREIGN KEY (Codigo) References producto(Codigo);
+ALTER TABLE producto
+ADD FOREIGN KEY (codigo_fabricante) References fabricante(Codigo);
